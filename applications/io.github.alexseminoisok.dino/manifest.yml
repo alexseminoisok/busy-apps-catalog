@@ -1,0 +1,40 @@
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/alexseminoisok/busybar-dino-run.git
+    commit_sha: 3defe58d906043264225c4b067fc9c9abdfeebfc  # v1.0.0
+
+category: games
+
+short_description: "Endless runner: jump the cacti, duck the birds. Smooth native animation, best score saved."
+
+description: |
+  An endless runner in the spirit of the dinosaur game from a browser's offline page. Jump the cacti, duck the pterodactyls and see how far you get.
+
+  ## Controls
+
+  - **Start:** jump. Also starts a game, and retries after game over. A jump pressed just before landing still counts.
+  - **OK (hold):** duck. Release to stand up again.
+  - **Back:** exit.
+
+  ## How it plays
+
+  - Single, double and triple cacti, small and large, and pterodactyls at three heights. Jump the low birds, duck under the middle ones and run beneath the high ones.
+  - The game speeds up in five steps as your score grows, and new obstacle groups and birds unlock along the way. Every obstacle has a fair jump window at every speed.
+  - The score counts about 9 points per second at the start and flashes at every 100 with a chime. On a crash the scene freezes on the hit, then shows your score and best.
+  - Everything that moves is a native animation played by BUSY Bar itself, so the ground, the obstacles and the jumps stay smooth.
+
+  ## Settings
+
+  **Sound:** on or off, for the jump, score and crash sounds.
+
+  Works offline. Your best score is kept on BUSY Bar. Original pixel art, sounds and code; not affiliated with Google.
+
+changelog: |
+  First release: an endless runner with jumping and ducking, cacti and pterodactyls, five speed steps, a best score and sound effects.
+
+screenshots:
+  - screenshots/1-gameplay.png
+  - screenshots/2-title.png
+  - screenshots/3-game-over.png
+  - screenshots/4-score.png
