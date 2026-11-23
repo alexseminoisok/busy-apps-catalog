@@ -1,0 +1,47 @@
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/alexseminoisok/busybar-boat-timetable.git
+    commit_sha: e629a5fa0cdb1d97a37d2fd9d558cd0f73d60ff0  # v1.0.0
+
+category: info-feeds
+
+short_description: "Live Uber Boat departures from any London river-bus pier, in the style of a countdown sign."
+
+description: |
+  Live Uber Boat (TfL river bus) departures on your BUSY Bar, styled like a UK countdown sign. Made for North Greenwich Pier and works with every Uber Boat pier on the Thames.
+
+  ## What it shows
+
+  - Two boats at a time: the destination pier and the minutes until departure, counting down live. Long pier names scroll.
+  - Upcoming boats page by themselves with a quick fade, up to the next ten departures.
+  - Both directions on every route TfL predicts for the pier. Boats that end their trip at your pier are skipped.
+  - An animated night-river background: soft blue glows drifting over the water, played natively by BUSY Bar.
+
+  ## Controls
+
+  - **OK:** refresh now.
+  - **Back:** exit.
+
+  ## Settings
+
+  - **Pier:** any of the 24 Uber Boat piers, from Putney to Barking Riverside. North Greenwich is the default.
+  - **Text colour:** cyan, white, lilac, green, yellow, amber, pink or red.
+  - **Background:** animated, gray or black.
+
+  ## Data
+
+  BUSY Bar fetches arrivals straight from the TfL Unified API every 30 seconds over Wi-Fi. No account or API key is needed, and the app sends no personal data. If the connection drops, the last departures keep counting down; after three minutes without an update the screen shows "No signal".
+
+  Powered by TfL Open Data. Not affiliated with or endorsed by TfL, Thames Clippers or Uber.
+
+changelog: |
+  First release: live Uber Boat departures for any of the 24 river-bus piers, eight text colours, and an animated, gray or black background.
+
+screenshots:
+  - screenshots/1-departures.png
+  - screenshots/2-white.png
+  - screenshots/3-lilac.png
+  - screenshots/4-amber-gray.png
+  - screenshots/5-yellow-black.png
+  - screenshots/6-loading.png
